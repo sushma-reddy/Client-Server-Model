@@ -1,0 +1,13 @@
+Array Size ----------------------------- Time
+
+30 elements				103us
+40					114us
+50					119us
+60					123us
+100					132us
+150					159us
+
+
+No Auth:
+
+Processing Time: 81us
