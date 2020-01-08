@@ -1,6 +1,6 @@
 1. Make a network topology, as given in the report 
 
-2. In authenticator 
+2. On authenticator 
    sudo apt-get update
    sudo apt-get install make 
    sudo apt-get install build-essential 
@@ -9,12 +9,12 @@
    make (to compile the kernel module)
    sudo insmod firewall.ko
 
-3. In web-server
+3. On web-server
    sudo apt-get update
    sudo apt-get install apache2
    copy index.php to /var/www/html/
 
-4. In controller
+4. On controller
    sudo apt-get update
    sudo apt-get install git
    git clone http://github.com/noxrepo/pox
@@ -22,7 +22,7 @@
    copy app.py to pox/forwarding/
    ./pox.py forwarding.app > log
    
-5. In OVS
+5. On OVS
    sudo apt-get update
    sudo apt-get install openvswitch-switch
    sudo apt-get install openvswitch-common
@@ -43,7 +43,7 @@
 
 
 
-6. In Client
+6. On Client
    Linux:curl http://server-ip 
    Windows:use browser http://server-ip
 
